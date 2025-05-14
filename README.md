@@ -1,1 +1,1 @@
-# bachelot-Yankiv
+# bachelor-Yankiv

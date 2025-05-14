@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "380549189293",
+    "project_id": "dwixy-2ed5c",
+    "storage_bucket": "dwixy-2ed5c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380549189293:android:6ecefc0d52ed93831d0024",
+        "android_client_info": {
+          "package_name": "com.example.dwixy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380549189293-g1spna1r29ngbsqjqngmrg3l5o82ql09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dwixy",
+            "certificate_hash": "a1f7a1628a7c00a0f527c863938ed3ecedb31a35"
+          }
+        },
+        {
+          "client_id": "380549189293-lbnkpd25hhsh515an5ni2h55qk7f9j4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIXFHywNLrcymLuza_nlU_yzpU8Rq9ky0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380549189293-lbnkpd25hhsh515an5ni2h55qk7f9j4r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "380549189293-t8sep51n62mdghrq55lmjih01tuph1k2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.dwixy"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleDisplayName</key>
+    <string>Dwixy</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>dwixy</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>$(FLUTTER_BUILD_NAME)</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleVersion</key>
+    <string>$(FLUTTER_BUILD_NUMBER)</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+
+    <!-- Permissions -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Для коректної роботи додатку потрібно доступ до вашої галереї</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Для коректної роботи додатку потрібно доступ до вашої камери</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Для коректної роботи додатку потрібно доступ до вашого мікрофону</string>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>Дозвольте відстежування для персоналізації реклами та покращення роботи додатку.</string> <!-- Added for ATT -->
+
+    <!-- Facebook SDK Configuration -->
+    <key>FacebookAppID</key>
+    <string>2032999943833519</string>
+    <key>FacebookClientToken</key>
+    <string>ebf964e1b9c90b8d95704a4d4b76df8b</string>
+    <key>FacebookDisplayName</key>
+    <string>dwixy</string>
+    <key>FacebookAutoLogAppEventsEnabled</key>
+    <false/> <!-- Disabled to avoid triggering Limited Login -->
+    <key>FacebookAdvertiserIDCollectionEnabled</key>
+    <false/> <!-- Disabled to avoid triggering Limited Login -->
+
+    <!-- Google Sign-In Configuration -->
+    <key>GIDClientID</key>
+    <string>380549189293-t8sep51n62mdghrq55lmjih01tuph1k2.apps.googleusercontent.com</string>
+
+    <!-- URL Types Configuration -->
+    <key>CFBundleURLTypes</key>
+    <array>
+        <!-- Google Sign-In -->
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>com.googleusercontent.apps.380549189293-t8sep51n62mdghrq55lmjih01tuph1k2</string>
+            </array>
+        </dict>
+        <!-- Facebook Sign-In -->
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb2032999943833519</string>
+            </array>
+        </dict>
+    </array>
+
+    <!-- LSApplicationQueriesSchemes for Facebook -->
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>fbapi</string>
+        <string>fbauth</string>
+        <string>fbauth2</string>
+        <string>fbshareextension</string>
+        <string>fb-messenger-share-api</string>
+    </array>
+
+    <!-- Firebase and Other Settings -->
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+</dict>
+</plist>
